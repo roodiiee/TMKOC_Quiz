@@ -16,10 +16,10 @@ console.log(chalk.greenBright('--------------------------------'))
 var choiceToPlay = readlineSync.question("Do You Want to Play: ")
 console.log('Type `y` for yes and `n` for no');
 
-// If User Enter Yes or 'y'
-function userPlay(accept){
-    play()
-}
+// // If User Enter Yes or 'y'
+// function userPlay(accept){
+//     play()
+// }
 
 function play(question, answer){
     var userAnswer = readlineSync.question(question, + "/n")
@@ -39,7 +39,6 @@ var questions = [{
     b: poet
     c: None of the above
     Give Your Answer `,
-    
     answer: "a",
 },
 {
@@ -56,8 +55,8 @@ var questions = [{
     c: Chennai
     d: None of above
     Give Your Answer `,
-    
     answer: "b",
+    
 },
 {
     question: `Jheta Lal belong too ?
@@ -65,16 +64,16 @@ var questions = [{
     b: Ahemdabad
     c: Mumbai
     Give Your Answer `,
-
     answer: "a",
+
 },
 {
-    question: `Which of the character background sound played "kem palty"??
+    question: `Which of the character background sound played kem palty??
     a: Baka
     b: Sundar
     Give Your Answer `,
-
     answer: "a",
+
 
 },
 {
@@ -83,8 +82,8 @@ var questions = [{
     b: No
     c: mayBe
     Give Your Answer `,
-
     answer : "c",
+
 
 },
 {
@@ -93,16 +92,16 @@ var questions = [{
     b: Definitely
     c: No
     Give Your Answer `,
-
     answer: "b",
+
 },
 {
     question: `Did Ever Popatlal get married until show end ??
     a: Yes
     b: never
     Give Your Answer `,
-
     answer: "b",
+
 }]
 
 // Loop to display all question one by one
